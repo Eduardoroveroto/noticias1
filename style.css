@@ -20,7 +20,7 @@ body {
     background-color: var(--almost-white)
 }
 
-body.menu-open::before{
+body.escurecer::before{
     content: "";
     position: fixed;
     height: 100vh;
@@ -56,7 +56,8 @@ width: fit-content;
     flex-direction: column;
     padding: 1.5rem;
     gap: 1.5rem;
-    display: none;
+
+    transition: 0.7s;
 }
 
 .header-mobile nav button {
